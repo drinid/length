@@ -1,1 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
 
+
+
+       char[] emri = {'d', 'r', 'i', 'n', 'n', 'p', 'r', 'r', 'r'};
+
+       int counter = 0;
+       for(char i = 0; i < emri.length; i++){
+           if(emri[i] == 'r'){
+               counter++;
+           }
+       }
+
+        for(char i = 0; i < emri.length; i++){
+            if(emri[i] == 'i'){
+                System.out.printf("egziston i");
+                break;
+            }
+        }
+
+
+
+        System.out.println(counter);
+
+
+    }
+
+}
